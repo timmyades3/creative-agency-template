@@ -1,0 +1,14 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  line-height: 22px;
+  font: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+/*HEADER*/
+
+
