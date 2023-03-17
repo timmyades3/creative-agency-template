@@ -6,8 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creative-agency-templ...</title>
+    <!--FONT AWESOME LINK-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--CSS LINK-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 
 <body>
@@ -23,12 +29,27 @@
                 </div>
                 <div>
                     <nav>
+                       <input type="checkbox" name="" id="checked">
+                       <label for="checked">
+                        <i class="fa fa-bars" id="bars"></i>
+                        <i class="fas fa-times" id="remove"></i>
+                       </label>
+
                         <ul>
+                            <li> 
+                                <div class="logo">
+                                    <a href="#">
+                                        <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/5527f303715879bc5767fc61_hipsterlogogenerator_1428681411802.png"
+                                            alt="">
+                                    </a>
+                                </div>
+                            </li>
+                            
                             <li><a href="">HOME</a></li>
-                            <li><a href="#ABOUT">ABOUT</a></li>
+                            <li><a href="#ABOUT"  target="" rel="noopener noreferrer">ABOUT</a></li>
                             <li><a href="#SERVICES">SERVICES</a></li>
                             <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
-                            <li><a href="">CONTACT</a></li>
+                            <li><a href="#CONTACT">CONTACT</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -86,12 +107,12 @@
     <section id="ABOUT">
         <div class="container container-a">
             <div class="about-img about-img-1">
-                <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/55290b3f3869f6db4ed16c57_desk1.jpeg"
+                <img src="https://i.postimg.cc/BZ7zD9hV/Untitled-design-4.jpg"
                     alt="">
             </div>
 
-            <div class="about-text about-text-1">
-                <h2>Creative <br>& fresh </br></h2>
+            <div class="about-text about-text-1" >
+                <h2 >Creative <br>& fresh </br></h2>
                 <h5>Our digital agency</h5>
                 <p>
                     Focus infographic venture business model canvas gamification ecosystem. Business plan gamification
@@ -115,7 +136,7 @@
             </div>
 
             <div class="about-img about-img-2">
-                <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/55290b56b9c6422c42122a2b_desk3.jpeg"
+                <img src="https://i.postimg.cc/tggS7B3j/Untitled-design-5.jpg"
                     alt="">
             </div>
         </div>
@@ -143,11 +164,11 @@
         </div>
     </section>
 
-    <!--SERVICES SECTION-->
+    <!--SERVICES SECTION OF THE PAGE-->
     <section id="SERVICES">
         <div class="container container-s">
             <div class="services-img services-img-1">
-                <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/55290b76b9c6422c42122a30_desk2.jpeg"
+                <img src="https://i.postimg.cc/pXpLYvPh/Untitled-design-6.jpg"
                     alt="">
             </div>
 
@@ -272,67 +293,202 @@
                     growth hacking.
                 </p>
             </div>
-            <div class="portfolio-content portfolio-content-2">
-                <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aa53c0108cf394df63840_port1-small.jpg"
-                  alt="">
-                <div class="portfolio-subcontent">
-                  <p>PORTFOLIO TITLE <br> branding,webdesign</p>
+
+            <input type="checkbox" id="check">
+
+
+
+            <label for="check">
+                <div class="portfolio-content portfolio-content-2">
+                    <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aa53c0108cf394df63840_port1-small.jpg"
+                        alt="">
+                    <div class="portfolio-subcontent">
+                        <p>PORTFOLIO TITLE <br> branding,webdesign</p>
+                    </div>
                 </div>
-            </div>
- 
-            <div class="portfolio-content portfolio-content-3">
-                <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aa53c0108cf394df63840_port1-small.jpg"
-                  alt="">
-                <div class="portfolio-subcontent">
-                  <p>PORTFOLIO TITLE <br> branding,webdesign</p>
+
+                <i class="fa fa-times" id="cancel"></i>
+            </label>
+
+            <label for="check">
+                <div class="portfolio-content portfolio-content-3">
+                    <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aa5cc0108cf394df63845_port2-small.jpg"
+                        alt="">
+                    <div class="portfolio-subcontent">
+                        <p>PORTFOLIO TITLE <br> branding,webdesign</p>
+                    </div>
                 </div>
-            </div>
- 
-            <div class="portfolio-content portfolio-content-4">
-                <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aa53c0108cf394df63840_port1-small.jpg"
-                  alt="">
-                <div class="portfolio-subcontent">
-                  <p>PORTFOLIO TITLE <br> branding,webdesign</p>
+
+                <i class="fa fa-times" id="cancel"></i>
+            </label>
+
+            <label for="check">
+                <div class="portfolio-content portfolio-content-4">
+                    <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aacfa416f90126f4e8596_port3-small.jpg"
+                        alt="">
+                    <div class="portfolio-subcontent">
+                        <p>PORTFOLIO TITLE <br> branding,webdesign</p>
+                    </div>
                 </div>
-            </div>
- 
-            <div class="portfolio-content portfolio-content-5">
-                <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aa53c0108cf394df63840_port1-small.jpg"
-                  alt="">
-                <div class="portfolio-subcontent">
-                  <p>PORTFOLIO TITLE <br> branding,webdesign</p>
+
+                <i class="fa fa-times" id="cancel"></i>
+            </label>
+
+            <label for="check">
+                <div class="portfolio-content portfolio-content-5">
+                    <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b90eaede1286e5f007d06_port4-small.jpg"
+                        alt="">
+                    <div class="portfolio-subcontent">
+                        <p>PORTFOLIO TITLE <br> branding,webdesign</p>
+                    </div>
                 </div>
-            </div>
- 
-            <div class="portfolio-content portfolio-content-6">
-                <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aa53c0108cf394df63840_port1-small.jpg"
-                  alt="">
-                <div class="portfolio-subcontent">
-                  <p>PORTFOLIO TITLE <br> branding,webdesign</p>
+
+                <i class="fa fa-times" id="cancel"></i>
+            </label>
+
+            <label for="check">
+                <div class="portfolio-content portfolio-content-6">
+                    <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b9102ede1286e5f007d0b_port5-small.jpg"
+                        alt="">
+                    <div class="portfolio-subcontent">
+                        <p>PORTFOLIO TITLE <br> branding,webdesign</p>
+                    </div>
                 </div>
-            </div>
- 
-            <div class="portfolio-content portfolio-content-7">
-                <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aa53c0108cf394df63840_port1-small.jpg"
-                  alt="">
-                <div class="portfolio-subcontent">
-                  <p>PORTFOLIO TITLE <br> branding,webdesign</p>
+
+                <i class="fa fa-times" id="cancel"></i>
+            </label>
+
+            <label for="check">
+                <div class="portfolio-content portfolio-content-7">
+                    <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b9118ede1286e5f007d0f_port6-small.jpg"
+                        alt="">
+                    <div class="portfolio-subcontent">
+                        <p>PORTFOLIO TITLE <br> branding,webdesign</p>
+                    </div>
                 </div>
-            </div>
- 
-            <div class="portfolio-content portfolio-content-8">
-                <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aa53c0108cf394df63840_port1-small.jpg"
-                  alt="">
-                <div class="portfolio-subcontent">
-                  <p>PORTFOLIO TITLE <br> branding,webdesign</p>
+
+                <i class="fa fa-times" id="cancel"></i>
+            </label>
+
+            <label for="check">
+                <div class="portfolio-content portfolio-content-8">
+                    <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b912a18c4f26f5f653ab3_port7-small.jpg"
+                        alt="">
+                    <div class="portfolio-subcontent">
+                        <p>PORTFOLIO TITLE <br> branding,webdesign</p>
+                    </div>
                 </div>
-            </div>
- 
+
+                <i class="fa fa-times" id="cancel"></i>
+            </label>
+
+            <div class="slider-p">
+                <div class="p-slider">
+                    <span id="slide-p-1"></span>
+                    <span id="slide-p-2"></span>
+                    <span id="slide-p-3"></span>
+                    <span id="slide-p-4"></span>
+                    <span id="slide-p-5"></span>
+                    <span id="slide-p-6"></span>
+                    <span id="slide-p-7"></span>
+                    <div class="image-container">
+                      <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aa58c3b36ca374dffe8ee_port1.jpeg" class="slide-p" width="787" height="525" />
+                      <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aa5e13b36ca374dffe8f5_port2.jpeg" class="slide-p" width="787" height="525" />
+                      <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aad0d416f90126f4e859a_port3.jpeg" class="slide-p" width="787" height="525" />
+                      <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b90f8a2ec8d8276bfb9dc_port4.jpg" class="slide-p" width="787" height="525" />
+                      <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b910bede1286e5f007d0c_port5.jpg" class="slide-p" width="787" height="525" />
+                      <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b9120a2ec8d8276bfb9e1_port6.jpg" class="slide-p" width="787" height="525" />
+                      <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b9133ede1286e5f007d13_port7.jpg" class="slide-p" width="787" height="525" />
+                    </div>
+                </div>
+              
+                <div class="buttons">
+                    <a href="#slide-p-1"><img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aa58c3b36ca374dffe8ee_port1.jpeg" alt=""></a>
+                    <a href="#slide-p-2"><img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aa5e13b36ca374dffe8f5_port2.jpeg" alt=""></a>
+                    <a href="#slide-p-3"><img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552aad0d416f90126f4e859a_port3.jpeg" alt=""></a>
+                    <a href="#slide-p-4"><img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b90f8a2ec8d8276bfb9dc_port4.jpg" alt=""></a>
+                    <a href="#slide-p-5"><img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b910bede1286e5f007d0c_port5.jpg" alt=""></a>
+                    <a href="#slide-p-6"><img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b9120a2ec8d8276bfb9e1_port6.jpg" alt=""></a>
+                    <a href="#slide-p-7"><img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b9133ede1286e5f007d13_port7.jpg" alt=""></a>
+                </div>
+            </div>   
         </div>
+    </section>
+
+    <!--CONTACT SECTION OF THE PAGE-->
+    <section id="CONTACT">
+    <div class="container container-c">
+       <div class="form-header">
+            <h2>Write us a letter</h2>
+            <h5>We appreciate your ideas</h5>
+       </div>
+       <div class="contact-form">
+            <form action="" method="post">
+                <div class="u-name">
+                    <label for="name">NAME</label>
+                    <br>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="u-email">
+                    <label for="name">EMAIL ADDRESS</label>
+                    <br>
+                    <input type="email" id="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="u-message">
+                    <label for="message">YOUR MESSAGE</label>
+                    <br>
+                    <textarea name="message" id="message"  placeholder="Example Text" required></textarea>
+                </div>
+                <div class="submit">
+                   <button type="submit" id="submit">submit</button>
+                </div>
+            </form>
+       </div>
+    </div>
+    </section>
+    
+    <!--FOOTER-->
+    <section>
+        <div class="container container-f">
+            <div class="footer">
+              <div class="footer-c footer-img">
+                <img src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/5527f403715879bc5767fce1_hipster-white.png" alt="">
+              </div>
+              <div class="footer-c footer-c-1">
+                <h6>MENU</h6>
+                <ul>
+                    <li><a href="#ABOUT">ABOUT</a></li>
+                    <li><a href="#SERVICES">SERVICES</a></li>
+                    <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+                    <li><a href="#CONTACT">CONTACT</a></li>
+                </ul>
+              </div>
+              <div class="footer-c footer-c-2">
+                <h6>ADDRESS</h6>
+                <ul>
+                    <li>Suite #913</li>
+                    <li>Corporation Building</li>
+                    <li>Tibb Street</li>
+                    <li>Manchester</li>
+                    <li>M1 1TA</li>
+                </ul>
+              </div>
+              <div class="footer-c footer-c-3">
+                <h6>CONTACT</h6>
+                <ul>
+                    <li>E: info(at)youragency.com</li>
+                    <li>T: +44 800 123 456</li>
+                    <li>F: +44 800 123 400</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+       
     </section>
 
     <!--JAVSCRIPT FILE-->
     <script src="index.js"></script>
+    
 </body>
 
 </html>
