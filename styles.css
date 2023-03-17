@@ -618,7 +618,6 @@ label #cancel {
 
 .image-container {
   width: 5509px;
-  background-color: pink;
   height: 525px;
   clear: both;
   position: relative;
@@ -1236,7 +1235,7 @@ form label {
 
   .p-slider {
     max-width: 83vw;
-    max-height: 50vh;
+    max-height: 40vh;
     height: 100%;
     margin-top: 75px;
   }
