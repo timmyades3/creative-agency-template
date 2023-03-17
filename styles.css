@@ -1299,6 +1299,13 @@ form label {
   }
 }
 
+@media(max-width:392px){
+  .portfolio-subcontent::before{
+    left: 1.5vw;
+    top: 1.4vh;
+  }
+}
+
 @media(max-width:352px){
   .portfolio-subcontent p{
     font-size: 7.2px;
