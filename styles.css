@@ -518,11 +518,9 @@ nav label #remove {
 }
 
 .portfolio-content img {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
+  max-width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 .portfolio-subcontent:hover {
@@ -532,34 +530,31 @@ nav label #remove {
 
 .portfolio-content {
   position: relative;
+  
 
 }
 
-.portfolio-subcontent p {
+.inner{
+  height: 100%;
+  padding-top: 40%;
+  border: 1px solid white;
+}
+
+.portfolio-subcontent .inner p {
+  width: 100%;
   color: white;
+  text-align: center;
 }
 
 .portfolio-subcontent {
-  background-color: rgba(0, 0, 0, 0.8);
-  position: relative;
-  padding: 31% 31%;
-  color: white;
-  opacity: 0;
-  display: inline-block;
-  text-align: center;
   width: 100%;
-}
-
-.portfolio-subcontent::before {
-  content: "";
-  width: 20.9vw;
-  height: 40.2vh;
+  height: 98.5%;
+  padding: 20px;
+  background-color: rgb(0, 0, 0, 0.7);
   position: absolute;
-  left: 1vw;
-  top: 1.5vh;
-  border: 1px solid rgb(255, 255, 255);
-
 }
+
+
 
 label #btn,
 label #cancel {
@@ -818,14 +813,29 @@ form label {
 @media(min-width:1642px) {
   .about-img img {
     max-width: auto;
+  }
 
+  .portfolio-subcontent{
+   height: 98.5%;
   }
 }
 
-@media(max-width:11024px) {
+@media(max-width:1400px) {
   .container-n {
     column-gap: 8%;
   }
+
+  .portfolio-subcontent{
+ 
+    height: 97.7%;
+  }
+}
+
+@media(max-width:1102px) {
+  .container-n {
+    column-gap: 8%;
+  }
+
 }
 
 /*TABLET*/
@@ -1020,37 +1030,11 @@ form label {
 
   .portfolio-subcontent {
     opacity: 1;
-  }  
+    height: 97.2%;
+  } 
 
-  .portfolio-subcontent p {
-    font-size: 12px;
-  }  
-
-  .portfolio-subcontent::before {
-    max-width: 20.3vw;
-    max-height: 37.5vh;
-
-  }
-
-  .footer-c ul li {
+.footer-c ul li {
     font-size: 11px;
-  }
-}
-
-@media(max-width:939px) {
-  .portfolio-subcontent::before {
-    max-width: 20.2vw;
-    max-height: 39.5vh;
-
-  }
-}
-
-@media(max-width:900px) {
-  .portfolio-subcontent::before {
-    max-width: 85%;
-    max-height: 87.5%;
-    margin: 5px 15px 5px 5px;
-
   }
 }
 
@@ -1124,15 +1108,7 @@ form label {
 
   .portfolio-subcontent{
     opacity: 0.6;
-  }
-
-  .portfolio-subcontent::before {
-    width: 85%;
-    max-width: 100%;
-    height: 83.5%;
-    max-height: 100%;
-    top: 20px;
-    left: 20px;
+    height: 98%;
   }
 
   form {
@@ -1175,16 +1151,13 @@ form label {
     margin-bottom: 0;
   }
 
-  .portfolio-subcontent::before{
-    left: 16px;
-    top: 15px;
-  }
+
 } 
 
-@media(max-width:550px){
-  .portfolio-subcontent::before{
-    left: 11.5px;
-    top: 13px;
+@media(max-width:537px){
+  .portfolio-subcontent{
+    opacity: 0.6;
+    height: 97%;
   }
 }
 
@@ -1215,6 +1188,10 @@ form label {
     font-size: 14px;
     line-height: 21px;
   }
+
+  p{
+    line-height: 16px;
+  }
   
   nav label #bars{
     left: 82vw;
@@ -1232,18 +1209,10 @@ form label {
     margin-bottom: 0;
   }
 
-
-  .portfolio-subcontent p{
-    font-size: 8.5px;
-    line-height: 16px;
+  .portfolio-subcontent{
+    padding: 10px;
+  }
  
-  }
-
-  .portfolio-subcontent::before{
-    left: 2vw;
-    top: 2.1vh;
-  }
-
   label #cancel{
     right: -30px;
     top: -4px;
@@ -1293,8 +1262,6 @@ form label {
     width:  400px;
   }
 
-
-
   .container-c{
     margin-top: 0;
   }
@@ -1314,33 +1281,17 @@ form label {
   }
 }
 
-@media(max-width:392px){
-  .portfolio-subcontent::before{
-    left: 1.5vw;
-    top: 1.4vh;
+@media(max-width:375px){
+  .portfolio-subcontent{
+    opacity: 0.6;
+    height: 96%;
   }
 }
 
-@media(max-width:352px){
-  .portfolio-subcontent p{
-    font-size: 7.2px;
-    line-height: 16px;
-  }
-
-  nav label #bars{
-    left: 75.5vw;
-  }
-  .portfolio-content img{
-    height: 25vh;
-  }
-
+@media(max-width:293px){
   .portfolio-subcontent{
-    height: 25vh;
-  }
-
-  .portfolio-subcontent::before{
-    left: 1vw;
-    top: 1vh;
+    opacity: 0.6;
+    height: 95%;
   }
 }
 
