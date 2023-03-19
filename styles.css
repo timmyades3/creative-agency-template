@@ -552,6 +552,7 @@ nav label #remove {
   padding: 20px;
   background-color: rgb(0, 0, 0, 0.7);
   position: absolute;
+  opacity: 0;
 }
 
 
