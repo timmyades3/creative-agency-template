@@ -925,7 +925,7 @@ form label {
     line-height: 30px;
     margin: 0;
     padding: 15px;
-    width: 100vw;
+  
 
   }
 
@@ -943,22 +943,9 @@ form label {
   }
 
   nav ul li a {
-
+    
     color: #000;
     padding: 0px;
-  }
-
-  nav #checked:checked~ul {
-    right: 0;
-  }
-
-  nav #checked:checked~label #bars {
-    display: none;
-  }
-
-  nav #checked:checked~label #remove {
-    display: block;
-    transition: 1s;
   }
 
   .slide .content h2 {
