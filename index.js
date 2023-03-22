@@ -22,6 +22,7 @@ bars.addEventListener('click', () => {
 
   sidebar.style.right = '0px';
   remove.style.display = 'block';
+  bars.style.display = 'none';
 });
 
 remove.addEventListener('click', () => {
@@ -29,6 +30,7 @@ remove.addEventListener('click', () => {
 
   sidebar.style.right = '-1000px';
   remove.style.display = 'none';
+  bars.style.display = 'block';
 });
 
 
