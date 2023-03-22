@@ -1,4 +1,3 @@
-# creative-agency-template
 # Creative Agency Template Clone
 
 This is a clone of the [Creative Agency Template website](http://creative-agency-template-20151.webflow.io/) built using HTML,CSS and JAVASCRIPT.
