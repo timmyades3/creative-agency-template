@@ -15,7 +15,7 @@ This is a clone of the [Creative Agency Template website](http://creative-agency
 
 ## Demo
 
-You can view a live demo of the clone on this [GitHub Page](https://yourusername.github.io/creative-agency-template-clone/).
+You can view a live demo of the clone on this [LINK](https://creative-agency-temp.vercel.app).
 
 ## Features
 
@@ -32,7 +32,7 @@ This clone was built using the following technologies:
 
 - HTML5
 - CSS3
-- Bootstrap 5
+- JAVASCRIPT
 
 ## Installation
 
